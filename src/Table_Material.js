@@ -8,7 +8,7 @@ export const Table_Material = () => {
     const [errorMessages, setErrorMessages] = useState([]);
 
     useEffect(() => {
-        const customData2 = axios.get("/api/v1/person/get_all")
+        const customData2 = axios.get("http://localhost:8080/api/v1/person/get_all")
             .then(res => {
                 console.log(res.data);
                 setPersons(res.data);
