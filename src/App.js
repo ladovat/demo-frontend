@@ -4,8 +4,9 @@ import './App.css';
 import axios from "axios";
 import { Table_Material } from "./Table_Material";
 import { Table_ReactStrap } from "./Table_ReactStrap";
+import 'react-app-polyfill/stable';
 
-const ShowUsers = () => {
+/*const ShowUsers = () => {
 
   const [userProfiles, setUserProfiles] = useState([]);
 
@@ -45,7 +46,7 @@ const LabaTest = () => {
   }, []);
 
   return <p>Hello</p>;
-}
+}*/
 
 function App() {
   return (
